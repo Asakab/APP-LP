@@ -89,7 +89,7 @@ https://obscure-reaches-46415.herokuapp.com/
 
 - Mailchimp pour l'inscription à la newsletter : 
 List THP avec un email qui part dès qu'une personne inscrit son email
-- Bot twitter : 
+- <a href="https://github.com/alexandradlg/bot_twitter">Bot twitter :</a></br>
 Récupération de comptes utilisateurs ayant un intéret pour des sujets tels que la tech, l'éduction, les étudiants, etc. Follow de ces utilisateurs et envoi d'un tweet avec le lien de la landing page
 
 
