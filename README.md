@@ -5,7 +5,7 @@ Le programme a été fait par Quentin, Abdel, Alexandra & Selma.
 
 #### Lien Heroku : https://obscure-reaches-46415.herokuapp.com/
 
-## Mission:
+## Mission
 
 Faire une landing page du site https://www.thehackingproject.org , et promouvoir ce dernier.
 
@@ -19,7 +19,7 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 	 Dans le fichier Gemfile:
 
 	```
-	gem 'frontend-generators'
+gem 'frontend-generators'
 
 	```
 
@@ -58,7 +58,7 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
  	  ```
 
  	Dans le fichier config/initializers/assets.rb
- 	
+
  	```
  	Rails.application.config.assets.precompile += %w( creative/manifest.js creative/manifest.css )
  	````
