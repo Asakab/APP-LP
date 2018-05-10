@@ -101,9 +101,10 @@ Récupération de comptes utilisateurs ayant un intéret pour des sujets tels qu
 
 ## Installation
 
-Une fois le repo cloné, fais ces commandes pour installer les gems et lancer le projet sur ton serveur local :```
+Une fois le repo cloné, fais ces commandes pour installer les gems et lancer le projet sur ton serveur local :
 
 
+```
 bundle install 
 ```
 
@@ -113,13 +114,16 @@ rails db:migrate
 
 ```
 rails s
+```
 
+## Pré-requis
 
-```## Pré-requis
+Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
 
-Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.```
+```
 Firefox, Safari, Chrome, Internet Explorer 8, ...
-```## Contributors
+```
+## Contributors
 
 * Quentin : https://github.com/QUB-SPG
 
