@@ -46,9 +46,8 @@ rails s
 
 ## Pré-requis
 
-```
 Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
-
+```
 Firefox, Safari, Chrome, Internet Explorer 8, ...
 ```
 
