@@ -64,6 +64,8 @@ Les metrics à suivre sont :
 - Nombre de visiteurs
 - Nombre d'inscrits à la newsletter
 - Taux d'ouverture sur l'email
+- Taux de clic sur le bouton de l'email
+- Taux de personnes ayant payés la caution
 
 #### Le rendu ✅
 
