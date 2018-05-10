@@ -13,16 +13,16 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 ## Les étapes 
 
 
-### La landing page ✅
+#### La landing page ✅
 
 
-### Le call to action ✅
+#### Le call to action ✅
 
-### L'acquisition ✅
+#### L'acquisition ✅
 
-### Analyse des metrics ✅
+#### Analyse des metrics ✅
 
-### Le rendu ✅
+#### Le rendu ✅
 
 
 
@@ -45,7 +45,7 @@ rails s
 ```
 
 
-##Pré-requis
+## Pré-requis
 
 Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
 
