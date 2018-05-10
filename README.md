@@ -16,11 +16,12 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 #### La landing page ✅
 ##### Pour créer notre landing page, nous avons repris une template bootstrap en suivant les étapes suivantes:
 
-	Dans le fichier Gemfile:
+Dans le fichier Gemfile:
 
 ```
 gem 'frontend-generators'
 ```
+
 
 ```
 Dans le fichier Rakefile:
@@ -32,6 +33,17 @@ load 'tasks/add_assets.rake'
 
 Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
 	
+=======
+Dans le fichier Rakefile:
+	
+```
+require "frontend_generators"
+load 'tasks/add_assets.rake'
+```
+
+Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
+
+>>>>>>> 0087507b181ee15cd1b729c05f2cafa55b706901
 ```
 bundle exec rake add_assets:bootstrap
 ```
@@ -41,14 +53,20 @@ Dans  le fichier application.css:
 ```
 *= require bootstrap
 ```
+<<<<<<< HEAD
 
 Dans  le fichier  application.js:
+=======
+Dans  le fichier  application.js:
+
+>>>>>>> 0087507b181ee15cd1b729c05f2cafa55b706901
 ```
 //= require bootstrap
 ```
     
  ##### Installation du Bootstrap creative 
 
+<<<<<<< HEAD
  	Dans le terminal 
  ``` 
   bundle exec rake add_assets:creative
@@ -57,12 +75,22 @@ Dans  le fichier  application.js:
  	Dans le fichier routes.rb:
  	 ```root 'creatives#index'
  	  ```
+=======
+Dans le terminal 
+``` 
+bundle exec rake add_assets:creative
+```
+>>>>>>> 0087507b181ee15cd1b729c05f2cafa55b706901
 
- 	Dans le fichier config/initializers/assets.rb
+Dans le fichier routes.rb:
+```
+root 'creatives#index'
+```
 
- 	```
- 	Rails.application.config.assets.precompile += %w( creative/manifest.js creative/manifest.css )
- 	````
+Dans le fichier config/initializers/assets.rb
+```
+Rails.application.config.assets.precompile += %w( creative/manifest.jscreative/manifest.css )
+````
 
 
 - Theme intégré : Bootstrap creative
@@ -90,7 +118,7 @@ https://obscure-reaches-46415.herokuapp.com/
 
 - Mailchimp pour l'inscription à la newsletter : 
 List THP avec un email qui part dès qu'une personne inscrit son email
-- Bot twitter : 
+- <a href="https://github.com/alexandradlg/bot_twitter">Bot twitter :</a></br>
 Récupération de comptes utilisateurs ayant un intéret pour des sujets tels que la tech, l'éduction, les étudiants, etc. Follow de ces utilisateurs et envoi d'un tweet avec le lien de la landing page
 
 
@@ -118,15 +146,22 @@ Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualis
 ```
 Firefox, Safari, Chrome, Internet Explorer 8, ...
 ```
+## Contributors
 
+* Quentin : https://github.com/QUB-SPG
 
+* Abdel : https://github.com/aitbali
 
+* Alexandra : https://github.com/alexandradlg
 
+* Selma : https://github.com/Asakab
 
+## Nos Slack
 
+* Quentin : @Quentin
 
+* Abdel : @Abdel
 
+* Alexandra : @Alex
 
-## Contributeurs:
-
-
+* Selma : @Asak
