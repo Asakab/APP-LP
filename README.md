@@ -19,38 +19,40 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 	Dans le fichier Gemfile:
 
 ```
-	gem 'frontend-generators'
+gem 'frontend-generators'
 ```
 
-	Dans le fichier Rakefile:
+```
+Dans le fichier Rakefile:
 
-	```
-	require "frontend_generators"
-	load 'tasks/add_assets.rake'
-	```
+```
+require "frontend_generators"
+load 'tasks/add_assets.rake'
+```
 
-	Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
-	```
-	bundle exec rake add_assets:bootstrap
-	```
+Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
+	
+```
+bundle exec rake add_assets:bootstrap
+```
 
-	Dans  le fichier application.css:
+Dans  le fichier application.css:
 
-	```
-	*= require bootstrap
-	```
+```
+*= require bootstrap
+```
 
-	Dans  le fichier  application.js:
-	```
-	//= require bootstrap
-	```
+Dans  le fichier  application.js:
+```
+//= require bootstrap
+```
     
  ##### Installation du Bootstrap creative 
 
  	Dans le terminal 
- 	``` 
- 	 bundle exec rake add_assets:creative
- 	 ```
+ ``` 
+  bundle exec rake add_assets:creative
+  ```
 
  	Dans le fichier routes.rb:
  	 ```root 'creatives#index'
