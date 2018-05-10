@@ -1,24 +1,64 @@
-# README
+# Day 28
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Présentation du programme:
+Le programme a été fait par Quentin, Abdel, Alexandra & Selma. 
 
-Things you may want to cover:
+#### Lien Heroku : https://
 
-* Ruby version
+## Mission:
 
-* System dependencies
+Faire une landing page du site https://www.thehackingproject.org , et promouvoir ce dernier.
 
-* Configuration
 
-* Database creation
+## Les étapes 
 
-* Database initialization
 
-* How to run the test suite
+#### La landing page ✅
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+#### Le call to action ✅
 
-* ...
+#### L'acquisition ✅
+
+#### Analyse des metrics ✅
+
+#### Le rendu ✅
+
+
+
+
+## Installation
+
+Une fois le repo cloné, fais ces commandes pour installer les gems et lancer le projet sur ton serveur local :
+
+
+```
+bundle install 
+```
+
+```
+rails db:migrate 
+```
+
+```
+rails s
+```
+
+
+## Pré-requis
+
+Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
+
+Firefox, Safari, Chrome, Internet Explorer 8, ...
+
+
+
+
+
+
+
+
+
+## Contributeurs:
+
+
