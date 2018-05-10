@@ -16,15 +16,14 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 #### La landing page ✅
 ##### Pour créer notre landing page, nous avons repris une template bootstrap en suivant les étapes suivantes:
 
-	 Dans le fichier Gemfile:
+Dans le fichier Gemfile:
 
 	```
 gem 'frontend-generators'
-
 	```
 
 
-	 Dans le fichier Rakefile:
+Dans le fichier Rakefile:
 
 	```
 	require "frontend_generators"
@@ -37,6 +36,7 @@ gem 'frontend-generators'
 	```
 
 	Dans  le fichier application.css:
+
 	```
 	*= require bootstrap
 	```
