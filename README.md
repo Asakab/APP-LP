@@ -14,6 +14,32 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 
 
 #### La landing page ✅
+Pour créer notre landing page, nous avons repris une template bootstrap en suivant les étapes suivantes:
+	 Dans le Gemfile
+	```
+	gem 'frontend-generators'
+	```
+	 Dans le Rakefile
+	```
+	require "frontend_generators"
+	load 'tasks/add_assets.rake'
+	```
+	Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
+	```
+	bundle exec rake add_assets:bootstrap
+	```
+
+	Dans  le fichier ``` application.css```
+	```
+	*= require bootstrap
+	```
+
+	Dans  le fichier ``` application.js```
+	```
+	//= require bootstrap
+	```
+
+
 
 #### Le call to action ✅
 
