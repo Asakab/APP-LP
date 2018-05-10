@@ -16,51 +16,52 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 #### La landing page ✅
 ##### Pour créer notre landing page, nous avons repris une template bootstrap en suivant les étapes suivantes:
 
-	Dans le fichier Gemfile:
+Dans le fichier Gemfile:
 
 ```
-	gem 'frontend-generators'
+gem 'frontend-generators'
 ```
 
-	Dans le fichier Rakefile:
+Dans le fichier Rakefile:
+	
+```
+require "frontend_generators"
+load 'tasks/add_assets.rake'
+```
 
-	```
-	require "frontend_generators"
-	load 'tasks/add_assets.rake'
-	```
+Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
 
-	Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande 
-	```
-	bundle exec rake add_assets:bootstrap
-	```
+```
+bundle exec rake add_assets:bootstrap
+```
 
-	Dans  le fichier application.css:
+Dans  le fichier application.css:
 
-	```
-	*= require bootstrap
-	```
+```
+*= require bootstrap
+```
+Dans  le fichier  application.js:
 
-	Dans  le fichier  application.js:
-	```
-	//= require bootstrap
-	```
+```
+//= require bootstrap
+```
     
  ##### Installation du Bootstrap creative 
 
- 	Dans le terminal 
- 	``` 
- 	 bundle exec rake add_assets:creative
- 	 ```
+Dans le terminal 
+``` 
+bundle exec rake add_assets:creative
+```
 
- 	Dans le fichier routes.rb:
- 	 ```root 'creatives#index'
- 	  ```
+Dans le fichier routes.rb:
+```
+root 'creatives#index'
+```
 
- 	Dans le fichier config/initializers/assets.rb
-
- 	```
- 	Rails.application.config.assets.precompile += %w( creative/manifest.js creative/manifest.css )
- 	````
+Dans le fichier config/initializers/assets.rb
+```
+Rails.application.config.assets.precompile += %w( creative/manifest.jscreative/manifest.css )
+````
 
 
 - Theme intégré : Bootstrap creative
