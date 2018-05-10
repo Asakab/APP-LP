@@ -18,9 +18,9 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 
 	Dans le fichier Gemfile:
 
-	```
+```
 	gem 'frontend-generators'
-	```
+```
 
 	Dans le fichier Rakefile:
 
