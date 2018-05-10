@@ -117,15 +117,22 @@ Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualis
 ```
 Firefox, Safari, Chrome, Internet Explorer 8, ...
 ```
+## Contributors
 
+* Quentin : https://github.com/QUB-SPG
 
+* Abdel : https://github.com/aitbali
 
+* Alexandra : https://github.com/alexandradlg
 
+* Selma : https://github.com/Asakab
 
+## Nos Slack
 
+* Quentin : @Quentin
 
+* Abdel : @Abdel
 
+* Alexandra : @Alex
 
-## Contributeurs:
-
-
+* Selma : @Asak
