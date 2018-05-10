@@ -15,7 +15,6 @@ Faire une landing page du site https://www.thehackingproject.org , et promouvoir
 
 #### La landing page ✅
 
-
 #### Le call to action ✅
 
 #### L'acquisition ✅
@@ -47,9 +46,11 @@ rails s
 
 ## Pré-requis
 
+```
 Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
 
 Firefox, Safari, Chrome, Internet Explorer 8, ...
+```
 
 
 
